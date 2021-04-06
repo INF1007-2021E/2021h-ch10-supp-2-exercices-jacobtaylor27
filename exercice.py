@@ -35,7 +35,7 @@ def build_spectrogram_animation(filename, fft_size, x_range=None, y_range=None):
 			return
 
 		# TODO: Mettre dans la variable x l'axe fréquentiel et dans y l'axe de valeurs de la prochaine itération du spectrogramme.
-
+		print('salut')
 		# TODO: S'il ne reste rien à traiter, on ferme le graphique avec plt.close(fig) et on met des listes vides dans x et y
 
 		# On met à jour seulement les données des lignes (avec nos deux axes) et on redesinne le graphique.
